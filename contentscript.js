@@ -34,7 +34,7 @@ function handleText(textNode)
 
 	v = v.replace(/\bDroner\b/g, "Döner");
 	v = v.replace(/\bdroner\b/g, "döner");
-  v = v.replace(/\bDrone\b/g, "Döner");
+  v = v.replace(/\bDrone/g, "Döner");
   v = v.replace(/\bdrone/g, "döner");
 
 	textNode.nodeValue = v;
